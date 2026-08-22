@@ -1,0 +1,21 @@
+application: "Notepad++"
+version: "8.9.6"
+
+wine:
+  version: "9.0"
+
+dependencies:
+  - vcrun2022
+
+dxvk: false
+vkd3d: false
+
+configuration:
+  windows_version: "win10"
+
+known_issues:
+  - symptom: "vcruntime140"
+    problem: "Le Visual C++ Runtime 2022 n'est pas installé dans le prefix."
+    solution: "Installer la dépendance vcrun2022."
+
+status: working
