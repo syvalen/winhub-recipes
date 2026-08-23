@@ -1,5 +1,7 @@
 application: "Notepad++"
 version: "8.9.6"
+icon: "Notepad++.png"
+installer: "Notepad++.exe"
 
 wine:
   version: "9.0"
